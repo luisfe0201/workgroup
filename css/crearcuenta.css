@@ -1,0 +1,126 @@
+body {
+    font-family: 'Capriola', sans-serif;
+    margin: 0;
+    background: linear-gradient(rgba(250, 250, 252, 0.75), rgba(255, 255, 255, 0.75)), url(../principal/fondo1.jpg);
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(to bottom, rgb(226, 240, 147), rgb(243, 245, 102));
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px black;
+}
+
+h1 {
+    padding-left: 20px;
+    color: rgb(4, 121, 121);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 208, 1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px rgb(70, 69, 69);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px -1px black;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.form__title {
+    margin: 0;
+    color: rgb(4, 121, 121);
+    text-align: center;
+}
+
+#exi {
+    margin: 0;
+    color: rgb(45, 194, 45);
+    text-align: center;
+}
+
+.form_container {
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form_container div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    width: 80%;
+
+}
+
+.formgroup div {
+    display: flex;
+    align-content: center;
+}
+
+
+.form__input {
+    margin-top: 10px;
+    height: 30px;
+    background: none;
+    color: rgb(112, 108, 108);
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3866f2;
+    color: #fff;
+    font-family: 'Capriola', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+    width: 150px;
+    margin: 20px;
+
+}

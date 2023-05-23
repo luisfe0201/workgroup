@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eformulario.css"> 
+    <title>WORK GROUP</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="principal/logop.png" alt="Logo empresa">
+            <h2>WORK GROUP</h2>
+        </div>
+        <NAV>
+            <A href="index.html" class="NAV LINK">Inicio</A>
+            
+        </NAV>
+    </header>
+
+
+    <form class="form" action="" method="post" id="inicia">
+        <h2 class="form__title">Inicia Sesión</h2>
+        <br>
+        <label for="rb">Quien eres?</label>
+        <br> <br>
+        <input type="radio" name="rb" id="rb" value="1">Persona
+        <input type="radio" name="rb" id="rb" value="1">Empresa
+        
+        <div class="form__container">
+
+            <div class="form__group">
+                <input type="email" id="usuario" class="form__input" placeholder=" ">
+                <label for="user" class="form__label">Email</label>
+                <span class="form__line"></span>
+            </div>
+
+            <div class="form__group">
+                <input type="password" id="pass" class="form__input" placeholder=" ">
+                <label for="password" class="form__label">Contraseña</label>
+                <span class="form__line"></span>
+            </div>
+            <input type="submit" class="form__submit" value="Entrar">
+
+        </div>
+
+    </form>
+    <br><br><br>
+
+
+</body>
+</html>
