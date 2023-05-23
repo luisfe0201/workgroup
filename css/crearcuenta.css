@@ -124,3 +124,11 @@ button {
     margin: 20px;
 
 }
+.warnings{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    color:red;
+    padding-top: 20px;
+
+}

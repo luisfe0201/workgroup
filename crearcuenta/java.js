@@ -14,22 +14,27 @@ form.addEventListener("submit", e=>{
     let entrar=false
     let regexEmail =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     parrafo.innerHTML=""
-    if (nombre.value.length <6){
-    warnings += `El nombre no es valido <br>`
+   
+    if (nombre.value.length <3){
+    warnings += "El nombre debe tener minimo 3 letras <br>"
+    entrar=true
+}
+if (apellido.value.length <3){
+    warnings += "El apellido debe tener minimo 3 letras <br>"
     entrar=true
 }
 
 if(!regexEmail.test (email.value)){
-    warnings+= `El Email no es valido <br>`
+    warnings+= "El Email no es valido <br>"
     entrar=true
 }
 
-if (pass.value.length <8){
-    warnings +=`La contraseña no es valida <br>`
+if (pass.value.length <6){
+    warnings +="La contraseña debe tener minimo 6 digitos <br>"
     entrar= true
 }
 if(entrar){
-    warnings.innerHTML=warnings
-}else{ creado.innerHTML="``Cuenta creada exitosamente``" }
+    parrafo.innerHTML=warnings
+} else{ creado.innerHTML="``Cuenta creada exitosamente``" }
 
 })
