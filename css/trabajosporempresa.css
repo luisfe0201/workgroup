@@ -59,8 +59,10 @@ p{
 }
 .costado{
     width: 30%;
+    display: flex;
     flex-direction: column;
     margin: 10px;
+    justify-content: space-around;
  
 }
 #costado{
