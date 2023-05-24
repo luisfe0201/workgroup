@@ -146,8 +146,26 @@ a img{
     width: 100%;
     height: 100%;
 }
+#empresas{
+    text-align: center;
+}
 
 
+/* iframe*/
+
+
+.ifra{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+#tvideo{
+    color:rgb(4, 121, 121);
+}
+
+/* footer */
 
 .pie-pagina{
     display: flex;
