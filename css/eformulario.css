@@ -153,15 +153,26 @@ a img{
 
 /* iframe*/
 
-
+.iframe{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    height: 400px;
+}
 .ifra{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#ventana{
+    width: 60%;
+    height: 100%;
 }
 
-
-#tvideo{
+#texv{
     color:rgb(4, 121, 121);
 }
 
