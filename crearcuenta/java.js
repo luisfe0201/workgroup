@@ -35,6 +35,6 @@ if (pass.value.length <6){
 }
 if(entrar){
     parrafo.innerHTML=warnings
-} else{ creado.innerHTML="``Cuenta creada exitosamente``" }
+} else{ creado.innerHTML="¡Biembenido! <br> ''Cuenta creada exitosamente''" }
 
 })
